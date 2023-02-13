@@ -1,7 +1,7 @@
 {
-    "name": "oscar-md",
+    "name": "Maxxy-md",
     "version": "1.0.2",
-    "description": "Oscar Multi Device",
+    "description": "Maxxy Multi Device",
     "depecrated": false,
     "main": "index.js",
     "directories": {
