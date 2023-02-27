@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 
 let handler = async (m) => {
-    let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/f38f1ce61e1e674e20e94.png')
+    let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/06c4e93a3d3f388b2642d.jpg')
     //let wibu = `https://api.zacros.my.id/randomimg/loli`
     let res = await fetch('https://raw.githubusercontent.com/ArugaZ/grabbed-results/main/random/anime/neko.txt')
     let txt = await res.text()
@@ -20,6 +20,7 @@ let tqto = `*▸ - - - —「 BIG THANKS TO 」— - - - ◂*
 *❉ Kriz offc*
 *❉ Zivfur*
 *❉ Mursid*
+*❉ Alfin*
 
 *▸ - - - —「 Script 」— - - - ◂*
 *❉ Kalo Mau Repload Kasih Base Ori Nya*
@@ -27,10 +28,10 @@ https://github.com/JarotOffc/fix-oscar-md-v5
 
 `
 conn.sendButtonDoc(m.chat, tqto, wm,'Thanks','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/Jarotr_",
+    mediaUrl: "https://Instagram.com/al_vin.233",
     mediaType: "VIDEO",
-    description: "https://Instagram.com/Jarotr_", 
-    title: 'Oscar-MultiDevice',
+    description: "https://Instagram.com/al_vin.233", 
+    title: 'Fin Ofc',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
