@@ -28,10 +28,10 @@ VERSION:3.0
 N:;;;
 FN: ᯤ 𝙈𝙖𝙭𝙭𝙮 𝘽𝙤𝙩𝙯
 item.ORG: ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ
-item1.TEL;waid=6285380166282:6285380166282@s.whatsapp.net
+item1.TEL;waid=6282261065144:6282261065144@s.whatsapp.net
 item1.X-ABLabel: ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ
 // Jangan Di Ganti Nomer Yang Bawah!! Jangan Lupa berterima kasih 
-item2.TEL;waid=6285380166282:6285380166282@s.whatsapp.net
+item2.TEL;waid=6282261065144:6285380166282@s.whatsapp.net
 item2.X-ABLabel: Creator Bot
 END:VCARD`
 const sentMsg  = await conn.sendMessage(
@@ -43,7 +43,7 @@ const sentMsg  = await conn.sendMessage(
         }
     }
 )
-let jarot = 'https://telegra.ph/file/e0de6b72b4500da4ea6c5.jpg'
+let jarot = 'https://telegra.ph/file/06c4e93a3d3f388b2642d.jpg'
 await conn.send3ButtonImg(m.chat, jarot, `${ucapan()}\n\nHallo mypren, @${m.sender.split`@`[0]} 👋\nIni nomor owner botnya, jangan di spam ya\nKalau mau disave syarat nya harus pakai profile Sendiri\nKalau gak ada profile gak bakalan direspon\nJika penting langsung chat Owner\n\n⫹⫺ Date : *${week} ${date}*\n⫹⫺ Time : *${wib}*`, wm, 'Source', '.sc', 'Menu', '.menu', 'Donasi', '.donasi', sentMsg)}
 handler.help = ['owner']
 handler.tags = ['info']
