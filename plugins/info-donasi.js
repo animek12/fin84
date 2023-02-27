@@ -28,8 +28,8 @@ let rules = `┌─── 〔 D O N A S I 〕 ───
 Kalian bisa mendukung bot ini dengan cara 
 
 ┌〔 PAYMANT 〕
-├📌 Dana : 6285380166282
-├📌 Pulsa : 6285380166282
+├📌 Dana : 6281332995497
+├📌 Pulsa : 6281332995497
 └────
 Berapapun donasi kalian akan sangat berarti 👍
 
@@ -39,13 +39,13 @@ Contact person Owner:
  ࿑ Owner wa.me/6285380166282 ( pemilik bot )`
 let nth = `*𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙼𝚊𝚡𝚡𝚢 𝙱𝚘𝚝𝚣*`
 conn.send3ButtonImg(m.chat, `${pickRandom(flaaa2)}` + `${ucapan()} ` + `${name}`, nth, rules, 'Sosial Media', '.sosialmedia', 'Owner', '.owner', 'Donasi', '.donasi', fcon, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://wa.me/p/5489299044451325/6285380166282',
+    mediaUrl: 'https://wa.me/p/5489299044451325/6282261065144',
     mediaType: 2, 
     description: sgc,
     title: "Sᴇᴡᴀ Cʜᴀᴛ ᴏᴡɴᴇʀ!!!",
     body: wm,
     thumbnail: fs.readFileSync('thumbnail.jpg'),
-    sourceUrl: 'https://wa.me/6285380166282',
+    sourceUrl: 'https://wa.me/6282261065144',
      }}
   })
 }
