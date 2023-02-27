@@ -270,7 +270,7 @@ let fot = `𝙽𝚘𝚝𝚎 𝙹𝚒𝚔𝚊 𝙼𝚎𝚗𝚎𝚖𝚞𝚔𝚊�
 `
 const listMessage = {
 footer: fot,
-text: 'Made By Maxxy Botz',
+text: 'Made By Fin Ofc',
 mentions: await conn.parseMention(jarot),
 title: jarot,
 buttonText: `CLICK HERE ⎙`, 
@@ -336,22 +336,22 @@ return conn.sendMessage(m.chat, listMessage, { quoted: fkontak, mentions: await 
 	 message: { "contactMessage": { "title":"sri","h": `haloo`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
 	}
     //------------------ DOCUMENT
-let gh = 'https://github.com/Maxxy-Botz?tab=repositories'
+let gh = 'https://github.com/Raya2399?tab=repositories'
 let buttonMessage= {
 'document':{'url':gh},
 'mimetype': 'application/pdf',
-'fileName':'𝙱𝚘𝚝 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝙱𝚢 Maxxy',
+'fileName':'𝙱𝚘𝚝 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝙱𝚢 Fin Ofc',
 'fileLength':'99999999999999',
 'pageCount':'999',
 'contextInfo':{
 'externalAdReply':{
 'showAdAttribution': true, 
-'mediaUrl': 'https://instagram.com/maxxystore__',
-'title': '𝙱𝙾𝚃 𝙼𝚄𝙻𝚃𝙸 𝙳𝙴𝚅𝙸𝙲𝙴 𝙱𝚈 Maxcy',
+'mediaUrl': 'https://instagram.com/al_vin.233',
+'title': '𝙱𝙾𝚃 𝙼𝚄𝙻𝚃𝙸 𝙳𝙴𝚅𝙸𝙲𝙴 𝙱𝚈 Fin Md',
 'body':'',
 'mediaType': 2,
 'thumbnail': fs.readFileSync('./thumbnail.jpg'),
-'sourceUrl': 'https://instagram.com/maxxystore__'}},
+'sourceUrl': 'https://instagram.com/al_vin.233'}},
 'caption': `             *『 D A S H B O A R D』*`,
 'footer': text,
 'buttons':[
